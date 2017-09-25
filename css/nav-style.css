@@ -1,0 +1,151 @@
+div{
+    display: block;
+}
+
+body{
+    background-color: #f8f8f8;
+
+}
+
+article.post-wrap{
+    max-width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 60px;
+}
+
+article.post-wrap header{
+    width: 600px;
+    height: 60px;
+    padding: 16px;
+    border-bottom: 1px solid #efefef;
+    color: #262626;
+
+}
+
+article.post-wrap header .user-title{
+    text-decoration: none;
+    color: #262626;
+}
+
+article.post-wrap header .user-pic{
+    width: 30px;
+    height: 30px;
+    background-color: #fafafa;
+    border: 1px solid rgba(0, 0, 0, 0.0975);
+    margin-right: 8px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.navbar-default{
+    background-color: #fff;
+    height: 75px;
+    padding: 26px 40px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+
+.navbar-default .nav-wrap{
+    max-width: 1010px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar-default .logo{
+    width: 160px;
+    height: 30px;
+    display: inline-block;
+    background-size: 350px;
+    background-image: url("http://hyunjoolee.pythonanywhere.com/static/images/sprites/abfe22.png");
+    background-position: -149px 0;
+}
+
+.navbar-default .new-post{
+    width: 24px;
+    height: 23px;
+    margin-left: 30px;
+    display: inline-block;
+    background-size: 413px 391px;
+    background-image: url("http://hyunjoolee.pythonanywhere.com/static/images/sprites/abfe22.png");
+    background-position: -201px -111px;
+}
+
+.navbar-default .follow-list{
+    width: 24px;
+    height: 23px;
+    margin-left: 30px;
+    display: inline-block;
+    background-size: 413px 391px;
+    background-image: url("http://hyunjoolee.pythonanywhere.com/static/images/sprites/abfe22.png");
+    background-position: -192px -283px;
+}
+
+.navbar-default .account{
+    width: 24px;
+    height: 23px;
+    margin-left: 30px;
+    display: inline-block;
+    background-size: 413px 391px;
+    background-image: url("http://hyunjoolee.pythonanywhere.com/static/images/sprites/abfe22.png");
+    background-position: -275px -342px;
+}
+
+.search-form{
+    position: relative;
+    width: 215px;
+    height: 26px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-icon{
+
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    display: inline-block;
+    background-size: 413px 391px;
+    background-image: url("http://hyunjoolee.pythonanywhere.com/static/images/sprites/abfe22.png");
+    background-position: -402px -22px;
+}
+
+.tag-search{
+    width: 215px;
+    height: 28px;
+    background: #fafafa;
+    border: solid 1px #dbdbdb;
+    border-radius: 3px;
+    padding: 3px 30px 3px 30px;
+    color: #999;
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+    outline: none;
+}
+
+
+.pull-left{
+    float: left;
+}
+
+.pull-right{
+    float: right;
+}
+
+
+
+
+
