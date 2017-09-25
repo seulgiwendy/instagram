@@ -7,6 +7,11 @@ body{
 
 }
 
+img{
+    vertical-align: middle;
+    max-height: 600px;
+}
+
 article.post-wrap{
     max-width: 600px;
     overflow: hidden;
@@ -16,6 +21,7 @@ article.post-wrap{
     border-radius: 4px;
     margin-bottom: 60px;
 }
+
 
 article.post-wrap header{
     width: 600px;
@@ -39,6 +45,50 @@ article.post-wrap header .user-pic{
     margin-right: 8px;
     border-radius: 50%;
     overflow: hidden;
+}
+
+article.post-wrap .post-content{
+    padding: 0 16px;
+}
+
+article.post-wrap .post-content .to-like{
+    background-position: -26px -349px;
+}
+
+article.post-wrap .post-content .comment-icon{
+    height: 24px;
+    width: 24px;
+    background-image: url("http://hyunjoolee.pythonanywhere.com/static/images/sprites/fef349.png");
+    background-position: -306px -289px;
+    border: none;
+    background-color: #fff;
+    margin: 8px;
+    margin-left: 4px;
+}
+
+article.post-wrap .post-content .like{
+    height: 24px;
+    width: 24px;
+    background-image: url("http://hyunjoolee.pythonanywhere.com/static/images/sprites/fef349.png");
+    border: none;
+    background-color: #fff;
+    margin: 8px 8px 8px 0;
+}
+
+article.post-wrap .post-content .comment-more{
+    display: block;
+    margin: 5px 0;
+    outline: none;
+    padding: 0;
+    border: none;
+    color: #999;
+    background-color: #fff;
+}
+
+article.post-wrap .post-username, article.post-wrap .comment-username, article.post-wrap .like-count{
+    font-weight: 600;
+    text-overflow: ellipsis;
+    margin-right: .3em;
 }
 
 .container-fluid{
