@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+
+
+    <title>Instagram</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/nav-style.css">
+
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-default">
+
+        <div class="nav-wrap">
+            <a class="logo pull-left" href="#"></a>
+            <form class="search-form" action="#" method="post">
+                <input class="tag-search" type="text" name="tag" placeholder="검색" pattern="#?[\wㄱ-ㅎ|ㅏ-ㅣ|가-힣]+" title="특수문자 공백 입력 불가" required>
+                <span class="search-icon"></span>
+
+            </form>
+            <span class="pull-right">
+                <a class="new-post" href="#"></a>
+                <a class="follow-list" href="#"></a>
+                <a class="account" href="#"></a>
+
+            </span>
+
+        </div>
+
+    </nav>
+    <article class="post-wrap">
+        <div class="container container-signup">
+            <div class="signup-text text-center">
+                <h3>회원 가입을 해 주십시오.</h3>
+            </div>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label class="col-form-label" for="email">이메일 주소</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="로그인시 사용할 이메일 주소">
+                </div>
+                <div class="form-group">
+                    <label class="col-form-label" for="password">비번</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="비밀번호를 강력하게 입력하라우">
+                </div>
+                <div class="form-group">
+                    <label class="col-form-label" for="password-confirm">비번 확인</label>
+                    <input type="password" class="form-control" id="password-confirm" name="password" placeholder="다시 한 번 입력하라우">
+                </div>
+                <div class="align-content-center">
+                    <button class="btn btn-primary standard-signup">가입하라우</button>
+                </div>
+            </form>
+            <div class="card standard-signup-warning" id="password-warning" style="display:none">
+                <div class="card-body">
+                    <span class="glyphicon glyphicon-exclamation-sign"></span> 씨발! 비밀번호를 다시 확인하세요. 비번 칸과 비번 확인 칸의 내용이 달라요.
+                </div>
+
+            </div>
+        </div>
+    </article>
+
+</div>
+</body>
+</html>

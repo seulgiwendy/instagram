@@ -95,6 +95,14 @@ article.post-wrap .post-username, article.post-wrap .comment-username, article.p
     padding: 0;
 }
 
+.container-signup{
+    margin: 30px auto;
+}
+
+.standard-signup-warning{
+    margin: 20px auto;
+}
+
 .navbar-default{
     background-color: #fff;
     height: 75px;
