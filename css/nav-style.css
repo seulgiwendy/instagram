@@ -55,6 +55,10 @@ article.post-wrap .post-content .to-like{
     background-position: -26px -349px;
 }
 
+article.post-wrap .post-content .did-like{
+    background-position: 0 -349px;
+}
+
 article.post-wrap .post-content .comment-icon{
     height: 24px;
     width: 24px;
@@ -83,6 +87,21 @@ article.post-wrap .post-content .comment-more{
     border: none;
     color: #999;
     background-color: #fff;
+}
+
+article.post-wrap .comment-box {
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    border-top: rgba(191,145,194,0.22) solid;
+}
+
+.comment-text {
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
 }
 
 article.post-wrap .post-username, article.post-wrap .comment-username, article.post-wrap .like-count{
