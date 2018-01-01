@@ -102,6 +102,7 @@ article.post-wrap .comment-box {
     box-sizing: border-box;
     outline: none;
     border: none;
+    resize: none;
 }
 
 article.post-wrap .post-username, article.post-wrap .comment-username, article.post-wrap .like-count{
